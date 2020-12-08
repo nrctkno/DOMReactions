@@ -93,4 +93,4 @@ Once the raction is selected by the user, the `commit` event is triggered, which
 }
 ```
 
-Node id, node title and parent's ids and may be null when they're not set. Index is the ordinal of the node inside its parent.
+Node `id`, node `title` and parent's `id`s may be null when they're not set. Index is the ordinal of the node inside its parent.
