@@ -15,18 +15,14 @@ This library is more a proof of concept than a stable component, so feel free to
 
 ## Installation
 
-1. Add the JQuery library:
+1. Add the JQuery library, .js and .css file inside your HTML's head tag.
 ```html
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-```
-
-1. Add the .js and .css file inside your HTML's head tag.
-```html
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script
     <link href="path/to/domreactions.css" rel="stylesheet">
     <script src="path/to/domreactions.js"></script>
 ```
 	
-1. Initialize the component adding the script before closing the `<body>` tag:
+2. Initialize the component, adding the script before closing the `<body>` tag:
 
 ```javascript
 <script>
