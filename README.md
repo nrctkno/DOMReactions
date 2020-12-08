@@ -26,7 +26,7 @@ This library is more a proof of concept than a stable component, so feel free to
     <script src="path/to/domreactions.js"></script>
 ```
 	
-1. Initialize the component adding the script before closing whe `<body>` tag:
+1. Initialize the component adding the script before closing the `<body>` tag:
 
 ```javascript
 <script>
@@ -43,7 +43,7 @@ $(selector).domReactions({
 </script>
 ```
 
-To get a full list of UNICODE emojis, refer to https://unicode.org/emoji/charts/full-emoji-list.html .
+To get a full list of UNICODE emojis, visit https://unicode.org/emoji/charts/full-emoji-list.html .
 
 
 ## Options
