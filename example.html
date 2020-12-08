@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Dom reactions example</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <link href="src/domreactions.css" rel="stylesheet">
+    <script src="src/domreactions.js"></script>
+    
+    <style>
+        #page{font-family: 'Arial', sans-serif; margin: 0 auto; max-width: 970px;}
+		article{text-align: justify;}
+		article img{width: 100%;}
+		footer{margin: 20px 0; border-top: 1px solid #ccc; padding-top: 20px; text-align: center; font-weight: bold;}
+    </style>
+  </head>
+  <body>
+    <div id="page">
+		<header>
+			<h1>DOM reactions example</h1>
+		</header>
+		<article>    
+			<div id="lorem_ipsum">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis eget est in finibus. Phasellus sed auctor quam. Morbi bibendum lectus eu leo consequat, vitae lobortis urna mattis. In hac habitasse platea dictumst. Phasellus ante metus, sodales eu dignissim eu, porta eu ex. Pellentesque sagittis dui purus, eu commodo dui iaculis sit amet. Morbi in elit vel nisi auctor accumsan nec in ex. Integer ultrices neque quis aliquam elementum. Nullam efficitur odio vitae nunc tristique porttitor eu eu orci. Curabitur scelerisque gravida elementum. Vivamus interdum arcu ac eros pharetra, vitae auctor ante tempus.</p>
+				<p>Phasellus suscipit, augue eu consequat malesuada, ex arcu ullamcorper ipsum, eget mattis libero orci quis nibh. Nunc a nibh efficitur, placerat tellus non, tempor mi. Sed tincidunt, magna in tincidunt pharetra, nisl odio venenatis purus, sed accumsan felis lacus id nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam neque augue, scelerisque sagittis leo ac, aliquet finibus felis. Sed sed sagittis nulla. Donec a turpis posuere, scelerisque augue nec, sodales neque. Mauris id luctus ligula. Nulla varius urna id tempor malesuada. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In accumsan nisl sed enim egestas rhoncus.</p>
+				<img src="https://source.unsplash.com/weekly?nature" title="a beatiful nature picture">
+				<p>Aliquam posuere ac dui id porttitor. Aenean maximus diam vel nisi tincidunt, id ultrices enim blandit. Pellentesque porta suscipit diam, faucibus dignissim turpis rutrum interdum. Vivamus eu enim neque. Curabitur efficitur finibus felis a aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce eget est nec risus faucibus malesuada et porta dolor. Mauris vestibulum eleifend orci, sed pretium nunc. Vivamus dictum ullamcorper justo. Donec ac maximus neque. Etiam et faucibus odio. Suspendisse odio quam, sollicitudin porttitor lectus tempus, interdum sollicitudin orci. Nulla congue urna ut enim hendrerit varius egestas at enim. Donec viverra hendrerit nibh a maximus.</p>
+				<p>In nec mattis nulla. Nam fringilla turpis a neque vulputate, condimentum hendrerit ex dictum. Proin ac augue lacinia, fermentum ex egestas, iaculis dui. Vivamus eu ligula ipsum. Donec nec ligula a elit sollicitudin malesuada. Mauris tempor accumsan magna, tincidunt pellentesque leo cursus in. Nulla scelerisque leo erat, vel ullamcorper libero luctus tempus. Ut sit amet nisi vehicula, viverra orci in, rutrum sem.</p>
+				<p>Suspendisse sed felis in lectus tincidunt ullamcorper. Sed sagittis porttitor diam, eu facilisis nisi egestas vel. Nunc ut tellus hendrerit, hendrerit ligula et, feugiat massa. Sed lacinia lorem est. Aenean tristique libero ligula, vel euismod velit interdum at. Aenean et sollicitudin nulla. Cras in tortor ac sem imperdiet hendrerit. Nam dapibus metus id semper hendrerit. Nam molestie, tellus quis ullamcorper viverra, quam urna imperdiet leo, nec ullamcorper erat ex sed mauris.</p>
+				<img src="https://source.unsplash.com/weekly?water" title="a beatiful water picture">
+			</div>
+		</article>
+		<footer>
+		    I'm a footer :D
+		</footer>
+	</div>
+    <script>
+	  //see domreactions.js, section domReactions.defaults to get the full list of options.
+      $('#page').domReactions();
+    </script>
+  </body>
+</html>

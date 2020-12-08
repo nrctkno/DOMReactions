@@ -1,0 +1,9 @@
+.domreaction_modal{
+  position: fixed; float: left; left: 50%; top: 50%; transform: translate(-50%, -50%); 
+  list-style: none; margin: 0; padding: 10px; border-radius: 5px;
+  background: blue; 
+}
+
+.domreaction_modal li{
+  display: inline-block; font-size: 20px;margin: 0 10px; cursor: pointer;
+}
